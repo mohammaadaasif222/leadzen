@@ -1,0 +1,39 @@
+Nav{
+color: #000 !important;
+text-transform: uppercase;
+font-size: 11.5px;
+font-weight: bolder !important;
+}
+.nav-fix{
+    top: 0;
+    position: fixed !important;
+    right: 0 ;
+    left: 0;
+    z-index: 1030;
+    background-color: white;
+}
+
+.bor-der{
+    border: 1px solid rgba(162, 162, 162, 0.27)
+}
+.nav-icon{
+    font-size: 30px;
+}
+.user{
+    font-size: smaller;
+}
+#navbarScrollingDropdown:hover{
+    color: rgb(205, 4, 4) !important;
+}
+#navbarScrollingDropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-menu{
+ font-size: 10px !important;
+ background: #fff !important;
+}
+.dropdown-menu a{
+ color:rgb(4, 4, 4) !important;
+ font-weight: bold;
+}

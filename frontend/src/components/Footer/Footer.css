@@ -1,0 +1,46 @@
+
+.bg-grey{
+    background: #e7eaee
+}
+ul{
+    display: flex;
+}
+ul li{
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    list-style: none;
+    display: inline;
+    margin: 0 10px;
+}
+ul li:hover{
+    color: rgb(188, 5, 5);
+}
+.footer{
+    margin: auto;
+}
+.social-icons{
+    font-size: 30px;
+}
+.social-icons:hover{
+    color: rgb(188, 5, 5);
+}
+.icon-conatiner{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-para{
+    font-size: 12px;
+}
+a{
+    text-decoration: none !important;
+}
+
+@media only screen and (max-width: 527px) {
+    ul {
+      display:block !important;
+      padding: 0 !important;
+
+    }
+  }

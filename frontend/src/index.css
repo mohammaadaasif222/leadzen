@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Poppins Regular"), local("Poppins-Regular"),
+      url(//d1vwxdpzbgdqj.cloudfront.net/assets/gl-fonts/Poppins-Regular-929ab3923456ab75e5d3e26391152eff9a2dcef7e00dcb6096fafbe326c90a60.woff2)
+        format("woff2"),
+      url(//d1vwxdpzbgdqj.cloudfront.net/assets/gl-fonts/Poppins-Regular-5c67de07dc63f2d3630408c4d018a2ff0d76a5f0bee183294657f3ff250c6f79.woff)
+        format("woff");
+  }
+  @font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local("Poppins Medium"), local("Poppins-Medium"),
+      url(//d1vwxdpzbgdqj.cloudfront.net/assets/gl-fonts/Poppins-Medium-d9ccd16fde040b7ef5f743984abe8b138117442872be18b5c743350ad348ac60.woff2)
+        format("woff2"),
+      url(//d1vwxdpzbgdqj.cloudfront.net/assets/gl-fonts/Poppins-Medium-5b2e3621adc68ec524b14fd68b8900d487607d600e070954cda5762c7b0bad0d.woff)
+        format("woff");
+  }
+  
+  @font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: local("Poppins SemiBold"), local("Poppins-SemiBold"),
+      url(//d1vwxdpzbgdqj.cloudfront.net/assets/gl-fonts/Poppins-SemiBold-79b0e5933e3f439066130ecff0429846f2e1124a822b9f9f4ef3abae9e24f2fd.woff2)
+        format("woff2"),
+      url(//d1vwxdpzbgdqj.cloudfront.net/assets/gl-fonts/Poppins-SemiBold-762d5d1018b19b3ecac5f5f9a0799b92180e3fa1113b9eb9880f88917d18e109.woff)
+        format("woff");
+  }
+  
+  @font-face {
+    font-family: "Adjusted Arial Fallback";
+    src: local(Arial);
+    size-adjust: 116%;
+    ascent-override: normal;
+    descent-override: normal;
+    line-gap-override: 18%;
+  }
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif !important;
+}

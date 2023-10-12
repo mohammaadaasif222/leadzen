@@ -1,0 +1,19 @@
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed; 
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    bottom: 40px;
+    font-size: 3rem;
+    z-index: 1;
+    cursor: pointer;
+    border-radius: 50% !important;
+}
+.top-arrow{
+    font-size: larger;
+    font-weight: 700;
+    width: 2rem !important;
+}
