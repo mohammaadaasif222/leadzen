@@ -11,7 +11,7 @@ function App() {
   return (
     <Router>
       <div className="row ">
-        <NavBar />
+      <NavBar/>
       </div>
       <Routes>
         <Route path="/">

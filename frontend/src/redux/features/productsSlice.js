@@ -1,7 +1,7 @@
 // productsSlice.js
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
-const API = `http://localhost:5000/api/v1/users`;
+const API = `https://leadzen-ucdf.onrender.com/api/v1/currencies`;
 
 export const fetchProducts = createAsyncThunk(
   "products/fetchProducts",
